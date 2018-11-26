@@ -1,0 +1,10 @@
+{% extends 'layout.html' %}
+{% block content %}
+666666666
+</br>
+{{data.name}} {{data | length()}}
+{% set messages = get_flashed_messages() %}
+{{messages}}
+</br>
+{{data.age}}
+{% endblock %}
