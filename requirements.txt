@@ -1,0 +1,11 @@
+flask
+flask_login
+flask_mail
+werkzeug
+sqlalchemy
+datetime
+flask_sqlalchemy
+itsdangerous
+requests
+wtforms
+pymysql
