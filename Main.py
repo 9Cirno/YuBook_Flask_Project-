@@ -12,9 +12,8 @@ def hello():
         'content-type':'text/html'
         # redirection: 'location':'http://www.google.com'
     }
-    # response = make_response('GYL 我SAO你吗',301)
-    # response.headers = headers
-    return '<head><meta charset="UTF-8"></head>GYL 我SAO你吗', 301, headers
+
+    return '<head><meta charset="UTF-8"></head>', 301, headers
 
 
 if __name__ == '__main__':
